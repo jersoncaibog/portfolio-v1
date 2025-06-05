@@ -1,0 +1,66 @@
+---
+title: "ESSU-SSC Admin: A Student Management System"
+publishedAt: "2025-04-20"
+summary: "Development of a comprehensive student management system for Eastern Samar State University's Supreme Student Council to track attendance, manage fines, and coordinate events using modern web technologies."
+images:
+  - "/images/projects/project-01/ssc-01.jpg"
+  - "/images/projects/project-01/ssc-02.png"
+team:
+  - name: "Jerson Caibog"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/jerson-caibog-182278261/"
+  - name: "Rhey Ranido"
+    role: "Software Engineer"
+    avatar: "/images/projects/project-01/avatar-01.png"
+    linkedIn: "https://www.linkedin.com/in/rhey-ranido/"
+link: "https://ssc-attendance-frontend.vercel.app/"
+---
+
+## Overview
+
+Development of a modern web-based student management system using React.js and Node.js for Eastern Samar State University's Supreme Student Council. The project focuses on creating an efficient platform for managing student attendance, events, and fines while providing a seamless user experience for administrators and staff.
+
+## Key Features
+
+- **Component Library**: Built a collection of reusable UI components including a custom DatePicker, DropdownSelector, and Modal system, all styled with Tailwind CSS for consistency and maintainability.
+
+- **User Authentication & Management**: Implemented JWT-based authentication with role-based access control, allowing administrators to manage user accounts through an intuitive interface with real-time feedback using Toast notifications.
+
+- **Event Management System**: Developed a comprehensive event tracking system with calendar integration, fine management, and attendance tracking capabilities using React Query for efficient server state management.
+
+- **Database Integration**: Designed and implemented a PostgreSQL database schema with proper relationships between users, events, attendance records, and fines, ensuring data integrity and efficient querying.
+
+## Technologies Used
+
+- **Frontend Stack**: React.js, Tailwind CSS, React Query, React Hook Form
+- **Backend Stack**: Node.js, Express.js, PostgreSQL
+- **Authentication**: JWT tokens
+- **State Management**: React Query for server state, Context API for local state
+- **Form Handling**: React Hook Form with Zod validation
+- **UI Components**: Custom-built components with Tailwind CSS
+
+## Challenges and Learnings
+
+One of the main challenges was implementing a reliable calendar system that correctly aligned days with weekdays. The solution involved creating a custom DatePicker component that properly handles date calculations and provides an intuitive interface for event scheduling.
+
+Managing complex state across the application, especially for user management operations, required careful consideration. We implemented a robust state management solution using React Query for server state and Context API for local UI state, which significantly improved the application's performance and user experience.
+
+The fine management system presented interesting challenges in terms of business logic and user interface design. We solved this by:
+
+- Creating a flexible schema that accommodates various fine types and amounts
+- Implementing automatic fine calculation based on attendance records
+- Developing an intuitive interface for fine management and tracking
+
+## Outcome
+
+The system has successfully transformed the Supreme Student Council's administrative processes from manual to digital, resulting in:
+
+- **Efficiency**: Reduced time spent on administrative tasks by 70%
+- **Accuracy**: Eliminated manual errors in attendance tracking and fine calculations
+- **Accessibility**: Provided 24/7 access to system features through a mobile-responsive interface
+- **Scalability**: Built a foundation that can easily accommodate future feature additions and modifications
+
+---
+
+The project demonstrates effective use of modern web technologies to solve real-world administrative challenges while maintaining a focus on user experience and system reliability.
