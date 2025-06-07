@@ -1,0 +1,73 @@
+---
+title: "ClimateCastPH: Temperature Trend Analysis System"
+publishedAt: "2025-03-20"
+summary: "Development of a sophisticated web-based application for analyzing and predicting temperature trends in the Philippines using historical data and advanced statistical models, featuring interactive visualizations and multiple prediction methods."
+images:
+  - "/images/projects/project-02/cover-00.png"
+  - "/images/projects/project-02/cover-01.png"
+  - "/images/projects/project-02/cover-02.png"
+  - "/images/projects/project-02/cover-03.png"
+team:
+  - name: "Jerson Caibog"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/jerson-caibog-182278261/"
+link: "https://climatecastph.vercel.app/"
+---
+
+## Overview
+
+Development of a comprehensive web-based temperature trend analysis system using Next.js and TypeScript for studying and predicting temperature patterns in the Philippines. The project focuses on providing accurate temperature predictions using multiple statistical models while offering an intuitive interface for data visualization and analysis.
+
+## Key Features
+
+- **Multiple Prediction Models**: Implemented three sophisticated prediction models including Polynomial Regression (2nd degree), Linear Regression, and 5-Year Moving Average, each with confidence metrics and validation against historical ranges.
+
+- **Interactive Data Visualization**: Created dynamic chart visualizations using Chart.js with react-chartjs-2, featuring historical temperature data, 5-year smoothed trends, and prediction trend lines with automatic scale adjustment.
+
+- **Real-time Calculations**: Developed an efficient calculation system that provides instant feedback on temperature predictions, with built-in validation and realistic range checking to ensure accuracy.
+
+- **Data Management**: Integrated Supabase for robust data storage and authentication, with a fallback system using mock data to ensure continuous system functionality even when the database is unavailable.
+
+## Technologies Used
+
+- **Frontend Stack**: Next.js 13+, TypeScript, Chart.js with react-chartjs-2
+- **Styling**: Tailwind CSS, shadcn/ui Components
+- **Backend & Database**: Supabase
+- **State Management**: React Hooks and Context
+- **Data Analysis**: Custom statistical analysis implementations
+- **Theme Support**: Dark/Light mode with system preference detection
+
+## Challenges and Learnings
+
+One of the main challenges was implementing accurate statistical models for temperature prediction. The solution involved:
+
+- Creating sophisticated algorithms for polynomial and linear regression
+- Implementing a dampening system for long-term predictions to prevent unrealistic results
+- Developing confidence metrics that adjust based on prediction distance
+
+Managing the visualization of complex data sets required careful consideration of user experience. We addressed this by:
+
+- Implementing dynamic chart scaling based on prediction ranges
+- Creating smooth transitions between different prediction models
+- Developing an intuitive interface for model selection and year input
+
+The data validation system presented interesting challenges in terms of ensuring prediction accuracy while maintaining usability. We solved this by:
+
+- Implementing range validation based on historical data
+- Creating dynamic confidence adjustments for future predictions
+- Developing clear error messaging and feedback systems
+
+## Outcome
+
+The system has successfully provided a powerful tool for temperature trend analysis, achieving:
+
+- **Accuracy**: Multiple prediction models with built-in validation and confidence metrics
+- **Usability**: Intuitive interface with real-time feedback and interactive visualizations
+- **Reliability**: Robust data handling with fallback systems
+- **Accessibility**: Responsive design with dark/light theme support
+- **Extensibility**: Modular architecture allowing easy addition of new prediction models
+
+---
+
+The project showcases the effective use of modern web technologies and statistical methods to create a sophisticated yet user-friendly tool for climate trend analysis and prediction.

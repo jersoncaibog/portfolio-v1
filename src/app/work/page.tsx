@@ -1,4 +1,4 @@
-import { Column } from "@/once-ui/components";
+import { Column, Heading } from "@/once-ui/components";
 import { baseURL } from "@/app/resources";
 import { about, person, work } from "@/app/resources/content";
 import { Meta, Schema } from "@/once-ui/modules";
@@ -30,6 +30,9 @@ export default function Work() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
+      <Heading marginBottom="l" variant="display-strong-s">
+        {work.title}
+      </Heading>
       <Projects />
     </Column>
   );

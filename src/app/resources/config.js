@@ -76,14 +76,14 @@ const effects = {
   },
   grid: {
     display: false,
-    opacity: 100,
+    opacity: 60,
     color: "neutral-alpha-medium",
     width: "0.25rem",
     height: "0.25rem",
   },
   lines: {
     display: false,
-    opacity: 100,
+    opacity: 50,
     color: "neutral-alpha-weak",
     size: "16",
     thickness: 1,

@@ -204,7 +204,7 @@ const blog = {
 const work = {
   path: "/work",
   label: "Work",
-  title: `Projects – ${person.name}`,
+  title: `Featured Projects`,
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
@@ -233,36 +233,41 @@ const gallery = {
       alt: "image",
       orientation: "vertical",
     },
-    {
-      src: "/images/gallery/04.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
+    // {
+    //   src: "/images/gallery/04.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
     {
       src: "/images/gallery/05.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/06.jpg",
       alt: "image",
       orientation: "horizontal",
     },
+    // {
+    //   src: "/images/gallery/07.jpg",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
     {
       src: "/images/gallery/08.jpg",
       alt: "image",
       orientation: "vertical",
     },
-    {
-      src: "/images/gallery/09.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    // {
+    //   src: "/images/gallery/09.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
+    // {
+    //   src: "/images/gallery/10.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
   ],
 };
 
