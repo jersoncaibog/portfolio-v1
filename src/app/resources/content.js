@@ -33,7 +33,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/jerson-caibog-182278261/",
+    link: "https://www.linkedin.com/in/jerson-caibog/",
   },
   {
     name: "Email",
