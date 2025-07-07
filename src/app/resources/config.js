@@ -94,7 +94,7 @@ const effects = {
 const display = {
   location: false,
   time: false,
-  themeSwitcher: false
+  themeSwitcher: true
 };
 
 const mailchimp = {

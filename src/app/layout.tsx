@@ -57,17 +57,18 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       <head>
         <script
           dangerouslySetInnerHTML={{
+          //       const theme = localStorage.getItem('theme') || 'system';
+          //       const root = document.documentElement;
+          //       if (theme === 'system') {
+          //         const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          //         root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+          //       } else {
+          //         root.setAttribute('data-theme', theme);
+          //       }
             __html: `
               (function() {
                 try {
-                  const theme = localStorage.getItem('theme') || 'system';
-                  const root = document.documentElement;
-                  if (theme === 'system') {
-                    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                    root.setAttribute('data-theme', isDark ? 'dark' : 'light');
-                  } else {
-                    root.setAttribute('data-theme', theme);
-                  }
+                  document.documentElement.setAttribute('data-theme', 'dark');
                 } catch (e) {
                   document.documentElement.setAttribute('data-theme', 'dark');
                 }
