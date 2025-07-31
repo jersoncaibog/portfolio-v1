@@ -1,0 +1,65 @@
+---
+title: "Wakanda Fitness Barracks: RFID Attendance System"
+publishedAt: "2025-02-08"
+summary: "Development of a comprehensive RFID-based attendance tracking system for a local fitness center, featuring member management, real-time statistics, and responsive design using modern web technologies."
+images:
+  - "/images/projects/wakanda-fitness-barracks/cover-01.png"
+  - "/images/projects/wakanda-fitness-barracks/cover-02.png"
+  - "/images/projects/wakanda-fitness-barracks/cover-03.png"
+  - "/images/projects/wakanda-fitness-barracks/cover-04.png"
+team:
+  - name: "Jerson Caibog"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/jerson-caibog-182278261/"
+link: "https://wakanda-fitness-barracks.vercel.app/"
+---
+
+## Overview
+
+Development of a modern RFID-based attendance tracking system for a local fitness center using vanilla JavaScript, HTML, and CSS with a Node.js backend. The project focuses on creating an efficient platform for managing gym members, tracking attendance through RFID technology, and providing real-time statistics for business operations.
+
+## Key Features
+
+- **RFID Attendance System**: Implemented a robust RFID tag scanning system that allows members to check-in quickly and efficiently, with real-time feedback and validation of membership status.
+
+- **Member Management**: Built a comprehensive member management system with capabilities to add, edit, and delete member profiles, including RFID tag assignment and membership expiration tracking.
+
+- **Dashboard Analytics**: Developed a real-time dashboard displaying key metrics including total members, active members, today's attendance, and expiring memberships for quick business insights.
+
+- **Database Integration**: Designed and implemented a MariaDB database schema with proper relationships between members and attendance records, ensuring data integrity and efficient querying with indexed fields for optimal performance.
+
+- **Responsive Design**: Created a mobile-responsive interface using Bootstrap 5 and custom CSS, ensuring seamless operation across all devices and screen sizes.
+
+## Technologies Used
+
+- **Frontend Stack**: HTML5, CSS3, Vanilla JavaScript, Bootstrap 5
+- **Backend Stack**: Node.js, Express.js, MariaDB
+- **Database**: MariaDB with optimized schema and indexing
+- **UI/UX**: Font Awesome icons, Google Fonts (Inter), custom CSS
+- **Development**: Nodemon for development server
+
+## Challenges and Learnings
+
+One of the main challenges was implementing a reliable RFID scanning system that could handle various tag formats and provide immediate feedback. The solution involved creating a robust input validation system that checks RFID tags against the database and provides clear status messages to users.
+
+Managing the relationship between members and attendance records required careful database design. We implemented a normalized schema with proper foreign key constraints and indexing to ensure data integrity while maintaining fast query performance for real-time dashboard updates.
+
+The responsive design implementation presented interesting challenges in maintaining functionality across different screen sizes. We solved this by:
+
+- Using Bootstrap 5's grid system for flexible layouts
+- Implementing custom CSS for specific component styling
+- Ensuring all interactive elements remain accessible on mobile devices
+
+## Outcome
+
+The system has successfully transformed the fitness center's attendance tracking from manual to digital, resulting in:
+
+- **Efficiency**: Reduced check-in time from 2-3 minutes to under 10 seconds per member
+- **Accuracy**: Eliminated manual errors in attendance tracking and membership status verification
+- **Accessibility**: Provided 24/7 access to attendance records and member information
+- **Scalability**: Built a foundation that can easily accommodate additional features like payment tracking and class scheduling
+
+The project demonstrates effective use of modern web technologies to solve real-world business challenges while maintaining simplicity and reliability in a production environment.
+
+---
