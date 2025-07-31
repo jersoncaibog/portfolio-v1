@@ -18,6 +18,48 @@ link: "https://github.com/jersoncaibog/arduino-smart-rc-car"
 
 Development of an intelligent remote-controlled car system that combines manual control with safety features through obstacle detection. The project integrates Arduino Uno microcontroller with ultrasonic sensors, dual DC motors, and IR remote control to create a versatile vehicle that can be manually controlled while automatically stopping when obstacles are detected, making it suitable for educational purposes and practical applications in dynamic environments.
 
+
+## Key Features
+
+- **Remote Control with Safety Features**: Manual remote control operation enhanced with automatic obstacle detection that stops the vehicle when objects are detected, providing safety while maintaining full user control.
+
+- **Intelligent Obstacle Detection**: Advanced ultrasonic sensor integration that automatically stops the vehicle when obstacles are detected, preventing collisions and damage in dynamic environments.
+
+- **Precise Motor Control**: Implementation of L293D H-Bridge chip for precise control of dual 12V DC motors, enabling smooth forward, reverse, and turning movements with variable speed control.
+
+- **Robust Power Management**: Integrated power supply module with 9V battery system ensuring stable operation and extended runtime for continuous testing and demonstration.
+
+- **Educational Design**: Modular component architecture that facilitates learning about embedded systems, sensor integration, and motor control principles.
+
+## Technologies Used
+
+- **Microcontroller**: Arduino Uno R3
+- **Sensors**: HC-SR04 Ultrasonic Sensor for distance measurement
+- **Motor Control**: L293D H-Bridge driver chip
+- **Actuators**: Dual 12V DC motors for movement
+- **Communication**: IR receiver module with remote control
+- **Power System**: 9V battery with power supply module
+- **Programming**: Arduino C++ with custom libraries
+- **Hardware**: Jumper wires, breadboard, and custom chassis
+
+## System Architecture
+
+The project implements a sophisticated embedded system architecture with:
+
+- **Sensor Layer**: Ultrasonic sensor continuously monitors the environment for obstacles
+- **Control Layer**: Arduino Uno processes sensor data and remote commands
+- **Actuator Layer**: H-Bridge controls dual motors for precise movement
+- **Interface Layer**: IR remote provides primary control capabilities
+- **Power Layer**: Stable power distribution to all system components
+
+The software architecture follows modular design principles:
+
+- Sensor reading and processing modules
+- Motor control and movement algorithms
+- Remote control signal processing
+- Obstacle detection and safety logic
+- System state management and safety monitoring
+
 ## Outcome
 
 The Smart RC Car project successfully demonstrates the integration of multiple technologies to create a functional autonomous system:
