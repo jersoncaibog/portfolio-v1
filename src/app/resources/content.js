@@ -48,7 +48,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building Scalable Digital Solutions</>,
+  headline: <>Building Scalable Software Solutions</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">ESSU-SSC Admin</strong></>,
@@ -56,7 +56,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Jerson, a Full-Stack Developer based in the Philippines, specializing in building scalable and efficient web applications.
+      I'm Jerson, a Software Developer from the Philippines, helping turn ideas into efficient and scalable digital products.
     </>
   ),
 };
@@ -82,7 +82,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Jerson is a Philippines-based full-stack developer with a passion for transforming complex challenges
+        Jerson is a Philippines-based software developer with a passion for transforming complex challenges
         into simple, elegant digital solutions. His work spans digital interfaces, server-side systems, and the convergence of frontend and backend technologies.
       </>
     ),
@@ -150,7 +150,7 @@ const about = {
       {
         title: "Software Development",
         description: <>Development of efficient, reliable, and user-friendly software solutions using modern technologies. The focus is on performance, scalability, and seamless user experience.</>,
-        technologies: ["React", "Next.js", "TailwindCSS", "Node.js", "Express", "MongoDB", "PostgreSQL", "TypeScript", "Supabase", "Vercel", "CI/CD", "Git", "GitHub"],
+        technologies: ["JavaScript", "Python", "C#", "C++", "Java", "TypeScript", "React", "Next.js", "TailwindCSS", "Node.js", "Express", "SQL", "NoSQL", "Git"],
         // optional: leave the array empty if you don't want to display images
         images: [
           // {
