@@ -148,8 +148,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Web design & development",
-        description: <>Development of modern, fast and responsive websites using the latest technologies. The focus is on performance and user-friendliness.</>,
+        title: "Software Development",
+        description: <>Development of efficient, reliable, and user-friendly software solutions using modern technologies. The focus is on performance, scalability, and seamless user experience.</>,
         technologies: ["React", "Next.js", "TailwindCSS", "Node.js", "Express", "MongoDB", "PostgreSQL", "TypeScript", "Supabase", "Vercel", "CI/CD", "Git", "GitHub"],
         // optional: leave the array empty if you don't want to display images
         images: [
