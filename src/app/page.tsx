@@ -1,4 +1,3 @@
-
 import { Projects } from "@/components/work/Projects";
 import { Avatar, Badge, Button, Column, Flex, Heading, RevealFx, Row, Text } from "@/once-ui/components";
 
@@ -7,6 +6,7 @@ import { about, home, newsletter, person } from "@/app/resources/content";
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
 import { Meta, Schema } from "@/once-ui/modules";
+import { redirect } from "next/navigation";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -18,6 +18,7 @@ export async function generateMetadata() {
 }
 
 export default function Home() {
+  redirect("/about")
   return (
     <Column maxWidth="m" gap="xl" horizontal="center">
       <Schema
