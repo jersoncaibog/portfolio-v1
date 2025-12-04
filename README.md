@@ -1,4 +1,4 @@
-# Magic Portfolio
+# My Portfolio
 
 A modern, responsive portfolio website built with [Next.js](https://nextjs.org) and [Once UI](https://once-ui.com) design system. This portfolio showcases my work, skills, and blog posts about software development and career insights.
 
